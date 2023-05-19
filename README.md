@@ -47,29 +47,28 @@ This project can be viewed through a few methods:
 
 * Open `index.html` in your browser to play the game.
 
-* If you use VS Code, run `index.html` using [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer){:target="_blank"} to run the project in a development local server with live reloading.
+* If you use VS Code, run `index.html` using <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a> to run the project in a development local server with live reloading.
 
-* This project is hosted on GitHub Pages. You can view it [here](https://devrahimi.github.io/rock-paper-scissors/){:target="_blank"}.
-
+* This project is hosted on GitHub Pages. You can view it <a href="https://devrahimi.github.io/rock-paper-scissors/" target="_blank">here</a> as well.
 
 ##  :fire: Contribution
 
 Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project:
 
 ###  Report a bug
-If you think you have encountered a bug, and I should know about it, feel free to report it [here](https://github.com/DevRahimi/rock-paper-scissors/issues){:target="_blank"} and I will take care of it.
+If you think you have encountered a bug, and I should know about it, feel free to report it <a href="https://github.com/DevRahimi/rock-paper-scissors/issues" target="_blank">here</a> and I will take care of it.
 
 
 ##  :camera: Gallery
 
-![Rock, Paper, Scissors!](./gallery/Demo.gif "Rock, Paper, Scissors! Demo")
+![Alt text](./gallery/Demo.gif "Rock, Paper, Scissors! Demo")
 
 
 ## :star2: Credit
 
-* [DevRahimi](https://github.com/DevRahimi/){:target="_blank"}
+* <a href="https://github.com/DevRahimi/" target="_blank">DevRahimi</a>
 
 
 ##  :lock: License
 
-This project is licensed under the [MIT License](LICENSE.md){:target="_blank"}.
+This project is licensed under the [MIT License](LICENSE.md).
