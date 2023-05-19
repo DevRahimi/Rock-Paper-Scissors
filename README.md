@@ -6,9 +6,9 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/DevRahimi/rock-paper-scissors)
 
 
-## Table of Contents 
+##  :clipboard: Table of Contents 
 
-* [About](#beginner-about)
+* [About](#blue_book-about)
 * [Usage](#zap-usage)
   - [Installation](#electric_plug-installation)
   - [Commands](#package-commands)
@@ -19,7 +19,7 @@
 * [License](#license)
 
 
-##  :beginner: About
+##  :blue_book: About
 
 This is a simple game of Rock, Paper, Scissors against the computer (random move generator).
 
