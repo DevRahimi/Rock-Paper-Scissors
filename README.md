@@ -12,7 +12,6 @@
   - [Commands](#package-commands)
 * [Contribution](#fire-contribution)
   - [Report a bug](#report-a-bug)
-  - [Request a feature](#request-a-feature)
 <!-- - [Gallery](#camera-gallery) -->
 * [Credits](#credits)
 * [License](#license)
@@ -49,11 +48,9 @@ Alternatively, the game can be played using the keyboard:
 
 Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project:
 
-1. **Report a bug** <br>
-If you think you have encountered a bug, and I should know about it, feel free to report it [here]() and I will take care of it.
+###  Report a bug
+If you think you have encountered a bug, and I should know about it, feel free to report it [here](https://github.com/DevRahimi/rock-paper-scissors/issues) and I will take care of it.
 
-2. **Request a feature** <br>
-You can also request for a feature [here](), and if it is viable, will be selected for development.
 
 <!-- ##  :camera: Gallery
 
