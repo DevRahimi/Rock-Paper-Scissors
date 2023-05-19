@@ -54,13 +54,18 @@ function playGame(playerMove) {
       result = 'You lose!';
     }
   }
+
+  let faIcon = '';
   
   if (result === 'You win!') {
     score.wins += 1;
+    faIcon = 'fa-face-laugh-beam';
   } else if (result === 'You lose!') {
     score.losses += 1;
+    faIcon = 'fa-face-sad-cry';
   } else if (result === 'It\'s a tie.') {
     score.ties += 1;
+    faIcon = 'fa-handshake';
   }
   
   localStorage.setItem('score', JSON.stringify(score));
@@ -69,7 +74,7 @@ function playGame(playerMove) {
 
   document.getElementById('userChoice').innerHTML = `You picked <span>${playerMove.toUpperCase()}</span>`;
   document.getElementById('cpuChoice').innerHTML = `Computer picked <span>${computerMove.toUpperCase()}</span>`;
-  document.getElementById('result').innerHTML = result;
+  document.getElementById('result').innerHTML = result + ` <i class="fa-regular ${faIcon} fa-icon"></i>`;
   
   if (result === 'You win!') {
     document.body.style.backgroundColor = '#77dd77';

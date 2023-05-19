@@ -11,7 +11,7 @@ body {
 
 .container {
   width: 45%;
-  min-width: 500px;
+  min-width: 400px;
   background-color: #ffffff;
   padding: 40px 30px;
   position: absolute;
@@ -19,21 +19,18 @@ body {
   top: 50%;
   left: 50%;
   border-radius: 20px;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
-}
-
-.reset-button {
-  transition: color 0.3s ease-in-out;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
 }
 
 .reset-button:hover {
-  color: rgba(247, 7, 7, 0.5);
+  color: rgba(247, 7, 7, 0.8);
 }
 
 .reset-button {
   border: none;
   background-color: transparent;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .scores {
@@ -58,6 +55,34 @@ body {
   border-radius: 50%;
   outline: none;
   cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.moves button:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 0px rgba(255, 255, 255, 0);
+}
+
+
+.move-icon {
+  color: #ffc107;
+}
+
+.move-icon:hover {
+  animation: pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .results {
@@ -76,6 +101,7 @@ body {
   padding: 10px 0;
   margin: 30px auto;
   font-weight: 600;
+  font-size: 35px;
   letter-spacing: 0.5px;
 }
 

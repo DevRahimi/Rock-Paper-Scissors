@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <script src="https://kit.fontawesome.com/43a93ddba4.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
@@ -31,13 +32,16 @@
     <div class="moves">
       <!-- User's choices (buttons) -->
       <button class="js-rock-button">
-        <img class="move-icon" src="images/Rock-emoji.png" alt="Rock">
+        <i class="fa-solid fa-hand-back-fist move-icon"></i>
+        <!-- <img class="move-icon" src="images/Rock-emoji.png" alt="Rock"> -->
       </button>
       <button class="js-paper-button">
-        <img class="move-icon" src="images/Paper-emoji.png" alt="Paper">
+        <i class="fa-solid fa-hand move-icon"></i>
+        <!-- <img class="move-icon" src="images/Paper-emoji.png" alt="Paper"> -->
       </button>
       <button class="js-scissors-button">
-        <img class="move-icon" src="images/Scissors-emoji.png" alt="Scissors">
+        <i class="fa-solid fa-hand-scissors move-icon"></i>
+        <!-- <img class="move-icon" src="images/Scissors-emoji.png" alt="Scissors"> -->
       </button>
     </div>
 
@@ -45,6 +49,7 @@
       <p id="userChoice"></p>
       <p id="cpuChoice"></p>
       <p id="result"></p>
+      <!-- <p id="faIcon"></p> -->
     </div>
 
     <script src="index.js"></script>
