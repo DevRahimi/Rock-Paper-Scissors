@@ -77,11 +77,11 @@ function playGame(playerMove) {
   document.getElementById('result').innerHTML = result + ` <i class="fa-regular ${faIcon} fa-icon"></i>`;
   
   if (result === 'You win!') {
-    document.body.style.backgroundColor = '#77dd77';
+    document.body.style.backgroundColor = '#3eea38';
   } else if (result === 'You lose!') {
-    document.body.style.backgroundColor = '#b22222';
+    document.body.style.backgroundColor = '#f51f1f';
   } else if (result === 'It\'s a tie.') {
-    document.body.style.backgroundColor = '#808080';
+    document.body.style.backgroundColor = '#c7c7c7';
   }
 
 }

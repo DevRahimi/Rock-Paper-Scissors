@@ -21,19 +21,19 @@
 
 ##  :green_book: About
 
-This is a simple game of Rock, Paper, Scissors against the computer (random move generator).
+This is a simple Rock, Paper, Scissors web game where the user plays against the computer (random move generator).
+I created this project to practice JavaScript and DOM manipulation, as well CSS styling, responsive design, and animations. It was also my first project using JavaScript.
 
 
 ##  :zap: Usage
 
-Click on the move buttons to play the game. The game will keep track of the score. There is also a reset button to reset the score and an autoplay button to play the game automatically.
+Click on the move buttons to play the game. The game will keep track of the score. There is also a reset button to reset the score.
 
 Alternatively, the game can be played using the keyboard:
 
 * `r` - Rock
 * `p` - Paper
 * `s` - Scissors
-* `a` - Auto Play
 * `q` - Reset Score
 
 ###  :electric_plug: Installation
