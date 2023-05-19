@@ -67,24 +67,24 @@ function playGame(playerMove) {
   
   updateScoreElement();
 
-  document.getElementById('user-choice').innerHTML = `You picked <span>${playerMove.toUpperCase()}</span>`;
-  document.getElementById('cpu-choice').innerHTML = `Computer picked <span>${computerMove.toUpperCase()}</span>`;
+  document.getElementById('userChoice').innerHTML = `You picked <span>${playerMove.toUpperCase()}</span>`;
+  document.getElementById('cpuChoice').innerHTML = `Computer picked <span>${computerMove.toUpperCase()}</span>`;
   document.getElementById('result').innerHTML = result;
   
   if (result === 'You win!') {
-    document.body.style.backgroundColor = '#90ee90';
+    document.body.style.backgroundColor = '#77dd77';
   } else if (result === 'You lose!') {
-    document.body.style.backgroundColor = '#ffcdd2';
+    document.body.style.backgroundColor = '#b22222';
   } else if (result === 'It\'s a tie.') {
-    document.body.style.backgroundColor = '#d3d3d3';
+    document.body.style.backgroundColor = '#808080';
   }
 
 }
 
 function updateScoreElement() {
-  document.getElementById('user-score').innerHTML = score.wins;
-  document.getElementById('ties-score').innerHTML = score.ties;
-  document.getElementById('cpu-score').innerHTML = score.losses;
+  document.getElementById('userScore').innerHTML = score.wins;
+  document.getElementById('drawScore').innerHTML = score.ties;
+  document.getElementById('cpuScore').innerHTML = score.losses;
 }
 
 function resetScore() {
@@ -93,9 +93,15 @@ function resetScore() {
   score.ties = 0;
   
   localStorage.removeItem('score');
-  updateScoreElement();
 
   document.body.style.backgroundColor = '#000000';
+
+  document.getElementById('userChoice').innerHTML = '';
+  document.getElementById('cpuChoice').innerHTML = '';
+  document.getElementById('result').innerHTML = '';
+
+  updateScoreElement();
+
 }
 
 document.querySelector('.js-rock-button').addEventListener('click', () => {

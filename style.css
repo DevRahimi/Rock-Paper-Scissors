@@ -1,16 +1,13 @@
-*, *:before, *:after {
+*, *::before, *::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-
 body {
   height: 100vh;
   background-color: #000000;
 }
-
-/* TODO: body bg color fade */
 
 .container {
   width: 45%;
@@ -25,7 +22,19 @@ body {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* .container button {} */
+.reset-button {
+  transition: color 0.3s ease-in-out;
+}
+
+.reset-button:hover {
+  color: rgba(247, 7, 7, 0.5);
+}
+
+.reset-button {
+  border: none;
+  background-color: transparent;
+  margin-top: 10px;
+}
 
 .scores {
   margin-bottom: 50px;
@@ -56,7 +65,7 @@ body {
   text-align: center;
 }
 
-.scores, .results {
+.scores, .results, .reset-button {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -79,44 +88,6 @@ span {
   font-weight: 600;
 }
 
-
-/* .move-icon {
+.move-icon {
   height: 50px;
 }
-
-.move-button {
-  background-color: transparent;
-  border: 3px solid #fff;
-  border-radius: 60px;
-  width: 120px;
-  height: 120px;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.move-button:hover {
-  background-color: #fff;
-}
-
-.move-button:active {
-  border: 5px solid #228B22;
-}
-
-.result {
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 50px;
-}
-
-.score {
-  font-size: 20px;
-  margin-top: 60px;
-}
-
-.reset-score-button, .auto-play-button {
-  background-color: white;
-  border: none;
-  font-size: 15px;
-  padding: 8px 15px;
-  cursor: pointer;
-} */
