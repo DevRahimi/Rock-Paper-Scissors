@@ -22,7 +22,7 @@
 ##  :green_book: About
 
 This is a simple Rock, Paper, Scissors web game where the user plays against the computer (random move generator).
-I created this project to practice JavaScript and DOM manipulation, as well CSS styling, responsive design, and animations. It was also my first project using JavaScript.
+I created this project to practice JavaScript and DOM manipulation, as well as CSS styling, responsive design, and animations. It was also my first project using JavaScript.
 
 
 ##  :zap: Usage
@@ -45,15 +45,15 @@ Clone the repository to an empty directory on your local machine.
 
 This project can be viewed through a few methods:
 
-* Open `index.html` in your browser to play the game.
+* Method 1: Open `index.html` in your browser to play the game.
 
-* If you use VS Code, run `index.html` using <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a> to run the project in a development local server with live reloading.
+* Method 2: If you use VS Code, run `index.html` using <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a> to run the project in a development local server with live reloading.
 
-* This project is hosted on GitHub Pages. You can view it <a href="https://devrahimi.github.io/rock-paper-scissors/" target="_blank">here</a> as well.
+* Method 3: This project is hosted on GitHub Pages. You can view it <a href="https://devrahimi.github.io/rock-paper-scissors/" target="_blank">here</a> as well.
 
 ##  :fire: Contribution
 
-Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project:
+Your contributions are always welcome and appreciated. Here is how you can contribute to this project:
 
 ###  Report a bug
 If you think you have encountered a bug, and I should know about it, feel free to report it <a href="https://github.com/DevRahimi/rock-paper-scissors/issues" target="_blank">here</a> and I will take care of it.
