@@ -61,7 +61,7 @@ If you think you have encountered a bug, and I should know about it, feel free t
 
 ##  :camera: Gallery
 
-![Alt text](https://github.com/DevRahimi/rock-paper-scissors/tree/master/gallery/Demo.gif "Rock, Paper, Scissors! Demo")
+![Alt text](https://github.com/DevRahimi/rock-paper-scissors/blob/master/gallery/Demo.gif)
 
 
 ## :star2: Credit
