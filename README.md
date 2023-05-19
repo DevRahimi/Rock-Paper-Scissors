@@ -2,7 +2,9 @@
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/DevRahimi/rock-paper-scissors)
+![GitHub language count](https://img.shields.io/github/languages/count/DevRahimi/rock-paper-scissors)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DevRahimi/rock-paper-scissors)
+
 
 ## Table of Contents 
 
@@ -16,9 +18,11 @@
 * [Credits](#credits)
 * [License](#license)
 
+
 ##  :beginner: About
 
 This is a simple game of Rock, Paper, Scissors against the computer (random move generator).
+
 
 ##  :zap: Usage
 
@@ -34,14 +38,18 @@ Alternatively, the game can be played using the keyboard:
 
 ###  :electric_plug: Installation
 
-1. Clone the repository to an empty directory on your local machine.
+Clone the repository to an empty directory on your local machine.
 `git clone https://github.com/DevRahimi/rock-paper-scissors.git`.
-
-2. Install requirements from requirements.txt `pip install -r requirements.txt`.
 
 ### :package: Commands
 
+This project can be viewed through a few methods:
+
 * Open `index.html` in your browser to play the game.
+
+* If you use VS Code, run `index.html` using [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+
+* This project is hosted on GitHub Pages. You can view it [here](https://devrahimi.github.io/rock-paper-scissors/).
 
 
 ##  :fire: Contribution
@@ -56,9 +64,11 @@ If you think you have encountered a bug, and I should know about it, feel free t
 
 ![Rock, Paper, Scissors!](./assets/images/rock-paper-scissors.png) -->
 
+
 ## :star2: Credit
 
 * [DevRahimi](https://github.com/DevRahimi/)
+
 
 ##  :lock: License
 
