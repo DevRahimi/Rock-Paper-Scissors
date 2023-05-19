@@ -8,7 +8,7 @@
 
 ##  :clipboard: Table of Contents 
 
-* [About](#blue_book-about)
+* [About](#green_book-about)
 * [Usage](#zap-usage)
   - [Installation](#electric_plug-installation)
   - [Commands](#package-commands)
@@ -19,7 +19,7 @@
 * [License](#license)
 
 
-##  :blue_book: About
+##  :green_book: About
 
 This is a simple game of Rock, Paper, Scissors against the computer (random move generator).
 
