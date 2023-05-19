@@ -12,39 +12,46 @@
 
 
 <body>
-  <div class="container" style="margin-bottom: 4em;">
-    <div class="in-the-middle">
-      <h1>Rock Paper Scissors</h1>
-
-      <div>
-        <!-- User's choices (buttons) -->
-        <button class="move-button js-rock-button">
-          <img class="move-icon" src="images/Rock-emoji.png" alt="Rock">
-        </button>
-        <button class="move-button js-paper-button">
-          <img class="move-icon" src="images/Paper-emoji.png" alt="Paper">
-        </button>
-        <button class="move-button js-scissors-button">
-          <img class="move-icon" src="images/Scissors-emoji.png" alt="Scissors">
-        </button>
-      </div>
-
-      <p class="js-result result"></p>
-      <p class="js-moves"></p>
-      <p class="js-score score"></p>
-
-      <div>
-        <button class="js-reset-button reset-score-button">
-          Reset Score
-        </button>
-
-        <button class="js-auto-play-button auto-play-button">
-          Auto Play
-        </button>
-      </div>
-
-
+  <div class="container">
+    <div class="scores">
+      <p>You :
+        <span id="user-score">0</span>
+      </p>
+      <p>Draw :
+        <span id="draw-score">0</span>
+      </p>
+      <p>Computer :
+        <span id="cpu-score">0</span>
+      </p>
     </div>
+
+    <div class="moves">
+      <!-- User's choices (buttons) -->
+      <button class="js-rock-button">
+        <!-- <img class="move-icon" src="images/Rock-emoji.png" alt="Rock"> --> test
+      </button>
+      <button class="js-paper-button">
+        <!-- <img class="move-icon" src="images/Paper-emoji.png" alt="Paper"> --> test
+      </button>
+      <button class="js-scissors-button">
+        <!-- <img class="move-icon" src="images/Scissors-emoji.png" alt="Scissors"> --> test
+      </button>
+    </div>
+
+    <div class="results">
+      <p id="user-choice"></p>
+      <p id="cpu-choice"></p>
+      <p id="result"></p>
+    </div>
+
+
+
+    <!-- <div>
+      <button class="js-reset-button reset-score-button">
+        Reset Score
+      </button>
+    </div> -->
+
   </div>
 
   <script src="index.js"></script>
