@@ -14,7 +14,7 @@
   - [Commands](#package-commands)
 * [Contribution](#fire-contribution)
   - [Report a bug](#report-a-bug)
-<!-- - [Gallery](#camera-gallery) -->
+* [Gallery](#camera-gallery)
 * [Credits](#credits)
 * [License](#license)
 
@@ -60,9 +60,9 @@ Your contributions are always welcome and appreciated. Following are the things 
 If you think you have encountered a bug, and I should know about it, feel free to report it [here](https://github.com/DevRahimi/rock-paper-scissors/issues){:target="_blank"} and I will take care of it.
 
 
-<!-- ##  :camera: Gallery
+##  :camera: Gallery
 
-![Rock, Paper, Scissors!](./assets/images/rock-paper-scissors.png) -->
+![Rock, Paper, Scissors!](./gallery/Demo.gif "Rock, Paper, Scissors! Demo")
 
 
 ## :star2: Credit
