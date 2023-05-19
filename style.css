@@ -39,7 +39,8 @@ body {
 }
 
 .moves {
-  width: 95%;
+  width: 92%;
+  max-width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-around;
